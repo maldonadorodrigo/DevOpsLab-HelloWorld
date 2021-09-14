@@ -2,6 +2,8 @@ name: CI - Lint / Tests / Deploy
 
 on: [push]
 
+jobs:
+
   lint:
     runs-on: ubuntu-20.04  
     steps:
